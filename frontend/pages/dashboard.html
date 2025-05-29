@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard 4</title>
+    <link rel="stylesheet" href="../asserts/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Boshqaruv Paneli 4</h1>
+        <div class="user-info">
+            <span id="username-display"></span>
+            <button id="logout-btn">Chiqish</button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Bosh sahifa</a></li>
+                <li><a href="#">Vazifalar</a></li>
+                <li><a href="#">Loyiha</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="overview">
+            <h2>Umumiy Ko'rinish</h2>
+            <div class="widget">
+                <h3>Jami Vazifalar</h3>
+                <p class="number">200</p>
+            </div>
+            <div class="widget">
+                <h3>Yangi Loyihalar</h3>
+                <p class="number">10</p>
+            </div>
+        </section>
+        <section class="task-list">
+            <h2>Oxirgi Vazifalar</h2>
+            <table id="task-table">
+                <thead>
+                    <tr>
+                        <th>Nomi</th>
+                        <th>Bajarilgan</th>
+                    </tr>
+                </thead>
+                <tbody id="task-body">
+                    </tbody>
+            </table>
+        </section>
+        <section class="project-list">
+            <h2>Loyiha</h2>
+            <table id="project-table">
+                <thead>
+                    <tr>
+                        <th>Nomi</th>
+                        <th>Boshlanish sanasi</th>
+                    </tr>
+                </thead>
+                <tbody id="project-body">
+                    </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Loyiha 4</p>
+    </footer>
+    <script src="../asserts/js/scripts.js"></script>
+</body>
+</html>
